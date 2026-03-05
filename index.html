@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 overflow-x-hidden">
+
+    <nav class="bg-black text-white p-[5px]">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-[24px] md:text-[30px] font-bold md:ml-[60px]">
+                    Creativo
+                </div>
+
+                <div class="hidden md:flex space-x-10 mr-[150px]">
+                    <a href="#" class="border-b-2 border-orange-400 ">Home</a>
+                    <a href="#" class="hover:border-b-2 border-orange-400 ">About</a>
+                    <a href="#" class="hover:border-b-2 border-orange-400">Services</a>
+                    <a href="#" class="hover:border-b-2 border-orange-400">Portfolio</a>
+                </div>
+
+                <div class="hidden sm:flex gap-4 md:mr-[80px] text-[18px]">
+                    <p class="hover:text-orange-400 cursor-pointer">𝕏</p>
+                    <p class="hover:text-orange-400 cursor-pointer">ⓕ</p>
+                    <p class="hover:text-orange-400 cursor-pointer">🅾</p>
+                    <p class="hover:text-orange-400 cursor-pointer">🇮🇳</p>
+                </div>
+
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-2xl focus:outline-none">
+                        ☰
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2 bg-black">
+            <a href="#" class="block hover:text-orange-400">Home</a>
+            <a href="#" class="block hover:text-orange-400">About</a>
+            <a href="#" class="block hover:text-orange-400">Services</a>
+            <a href="#" class="block hover:text-orange-400">Portfolio</a>
+        </div>
+    </nav>
+
+    <!--Section 1-->
+    <section class="py-10 md:py-15 px-4 bg-[#01020e] min-h-">
+        <h1 class="text-white text-[32px] md:text-[52px] text-center font-[700] pt-10 pb-8">
+            We Build <span class="text-orange-500">Creative</span> Solutions for <br class="hidden md:block"> Modern
+            Brands
+        </h1>
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8 items-center">
+            <div class="relative rounded-3xl overflow-hidden lg:left-24 w-full max-w-[645px] mx-auto">
+                <img src="images/sec 1.png" class="w-full h-[300px] md:h-[460px] object-cover">
+                <div class="absolute bottom-8 left-8 text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold">150+</h1>
+                    <p class="text-base md:text-lg opacity-90">Projects Delivered</p>
+                </div>
+            </div>
+
+            <div
+                class="bg-[#252525] w-full lg:w-[450px] lg:ml-[100px] h-auto lg:h-[460px] rounded-3xl p-6 md:p-12 text-gray-300 shadow-xl mx-auto">
+                <p class=" md:text-lg mb-8">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+                <div class="space-y-4 md:space-y-6 mb-10">
+                    <div class="flex items-center gap-3 border-b border-gray-700 pb-4">
+                        <div
+                            class="w-6 h-6 bg-orange-500 shrink-0 rounded-full flex items-center justify-center text-white text-xs">
+                            ✓</div>
+                        <span class="font-semibold text-white text-sm md:text-base">Brand Strategy & Identity</span>
+                    </div>
+
+                    <div class="flex items-center gap-3 border-b border-gray-700 pb-4">
+                        <div
+                            class="w-6 h-6 bg-orange-500 shrink-0 rounded-full flex items-center justify-center text-white text-xs">
+                            ✓</div>
+                        <span class="font-semibold text-white text-sm md:text-base">Web Design & Development</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+                    <button
+                        class="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white px-5 py-3 rounded-2xl font-semibold transition">
+                        Discover Services
+                    </button>
+                    <button class="flex items-center gap-3 text-white hover:text-orange-500">
+                        <div class="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center">📞</div>
+                        <span class="font-semibold">Schedule a Call</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 2-->
+    <section class="bg-[#f8f8f8] py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+
+            <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+                <h2 class="text-2xl sm:text-3xl font-semibold">
+                    About
+                    <span class="block w-24 sm:w-32 h-[2px] bg-orange-500 mx-auto mt-3"></span>
+                </h2>
+                <p class="text-gray-500 mt-4 text-sm sm:text-base">
+                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+                <div class="relative flex flex-col sm:flex-row justify-center items-center gap-6">
+
+                    <img src="images/left1.webp" alt=""
+                        class="w-full max-w-[260px] aspect-[3/4] object-cover rounded-2xl shadow-lg transition-transform hover:scale-105 transition duration-700 ease-in-out">
+
+                    <img src="images/left2.webp" alt=""
+                        class="w-full max-w-[220px] aspect-[3/4] object-cover rounded-2xl shadow-lg sm:mt-12 transition-transform hover:scale-105 transition duration-700 ease-in-out">
+
+                    <div class="absolute -bottom-6 sm:-bottom-8 left-1/2 -translate-x-1/2">
+                        <div
+                            class="bg-orange-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-xl flex items-center gap-3">
+                            <span class="text-2xl sm:text-3xl font-bold">15+</span>
+                            <span class="uppercase text-[10px] sm:text-xs font-semibold tracking-wide">
+                                Years Experience
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pt-8 lg:pt-0">
+
+                    <span class="bg-orange-100 text-orange-600 px-4 py-1 rounded-full text-xs font-semibold">
+                        WHO WE ARE
+                    </span>
+
+                    <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mt-6 leading-snug">
+                        Crafting Digital Excellence Through Innovation
+                    </h3>
+
+                    <p class="text-gray-600 mt-6 leading-relaxed text-sm sm:text-base">
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                        adipisci velit.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-6 mt-8">
+
+                        <div class="bg-white p-6 flex gap-4 rounded-xl shadow-sm hover:shadow-md transition">
+                            <div class="bg-[#fae9d7] w-12 h-12 rounded-2xl flex items-center justify-center text-xl">
+                                💡
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Creative Strategy</h4>
+                                <p class="text-sm text-gray-500 mt-1">
+                                    Quis autem vel eum iure reprehenderit qui in ea voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 flex gap-4 rounded-xl shadow-sm hover:shadow-md transition">
+                            <div class="bg-[#fae9d7] w-12 h-12 rounded-2xl flex items-center justify-center text-xl">
+                                📈
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Growth Focused</h4>
+                                <p class="text-sm text-gray-500 mt-1">
+                                    At vero eos et accusamus et iusto odio dignissimos.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr class="my-8">
+
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 text-center sm:text-left">
+
+                        <div>
+                            <h4 class="text-orange-500 font-bold text-3xl sm:text-4xl">850+</h4>
+                            <p class="text-gray-500 text-sm">Projects</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-orange-500 font-bold text-3xl sm:text-4xl">98%</h4>
+                            <p class="text-gray-500 text-sm">Satisfaction</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-orange-500 font-bold text-3xl sm:text-4xl">45+</h4>
+                            <p class="text-gray-500 text-sm">Members</p>
+                        </div>
+
+                    </div>
+
+                    <hr class="my-8">
+
+                    <button
+                        class="border border-orange-500 text-orange-500 px-6 py-3 rounded-2xl hover:bg-orange-500 hover:text-white transition w-full sm:w-auto">
+                        Learn More About Us →
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 3-->
+    <section class="py-4 bg-[#f8f8f8]">
+        <div class="text-center max-w-2xl mx-auto mb-16 px-4">
+            <h2 class="text-3xl font-semibold ">
+                Services
+                <hr class="block w-40 h-[3px] bg-orange-500 mx-auto mt-2">
+            </h2>
+            <p class="text-gray-500 mt-4 text-sm">
+                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-10 lg:px-[80px]">
+
+            <!--card 1-->
+
+            <div
+                class="bg-white p-8 rounded-2xl  shadow-sm group border border-orange-200 w-full min-h-[320px] flex flex-col justify-between transition-transform hover:scale-105 transition duration-700">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div
+                            class="bg-[#fae9d7] group-hover:bg-orange-500 w-16 h-16 rounded-full flex items-center justify-center text-2xl">
+                            🖌️</div>
+                        <div class="text-right">
+                            <span class="bg-green-500 text-white text-xs px-3 py-1 rounded-full">POPULAR</span>
+                            <p class="text-gray-200 text-4xl font-bold mt-2">01</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold ">Visual Identity Design</h3>
+                    <p class="text-gray-500 leading-relaxed mt-2 text-sm">Mauris blandit aliquet elit eget tincidunt
+                        nibh pulvinar a sed porttitor lectus nibh.</p>
+
+                    <div class="flex flex-wrap gap-3 mt-6">
+                        <span class="bg-gray-100 px-4 py-2 rounded-full text-xs text-gray-600">
+                            <span class="text-orange-500">✓</span> Brand Strategy
+                        </span>
+                        <span class="bg-gray-100 px-4 py-2 rounded-full text-xs text-gray-600">
+                            <span class="text-orange-500">✓</span> Logo Creation
+                        </span>
+                    </div>
+                </div>
+                <p class="mt-4 font-semibold cursor-pointer group-hover:text-orange-500 transition text-sm">Discover More >
+                </p>
+            </div>
+
+            <!--Card 2-->
+
+            <div
+                class="bg-white p-8 rounded-2xl hover:border-b-4 hover:border-[#d66e61] shadow-sm w-full group min-h-[320px] flex flex-col justify-between transition-transform hover:scale-105 transition duration-700">
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div
+                            class="bg-[#fae9d7] group-hover:bg-orange-500 w-16 h-16 rounded-full flex items-center justify-center text-2xl">
+                            💳</div>
+                        <p class="text-gray-200 text-4xl font-bold ">02</p>
+                    </div>
+                    <h3 class="text-xl font-semibold mt-6">User Experience Crafting</h3>
+                    <p class="mt-2 text-gray-500 text-sm">Curabitur arcu erat accumsan id imperdiet et porttitor at sem
+                        nulla quis lorem.</p>
+
+                    <div class="flex flex-wrap gap-3 mt-6">
+                        <span class="bg-gray-100 px-4 py-2 rounded-full text-xs text-gray-600">
+                            <span class="text-orange-500">✓</span> Wireframing
+                        </span>
+                        <span class="bg-gray-100 px-4 py-2 rounded-full text-xs text-gray-600">
+                            <span class="text-orange-500">✓</span> Prototyping
+                        </span>
+                    </div>
+                </div>
+                <p class="mt-4 font-semibold cursor-pointer group-hover:text-orange-500 transition text-sm">Discover More >
+                </p>
+            </div>
+
+            <!--Card 3 A-->
+            <div class="flex flex-col gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="bg-[#fae9d7] w-14 h-14 rounded-xl flex-shrink-0 flex items-center justify-center text-xl">
+                            📈</div>
+                        <div>
+                            <span class="text-orange-500 text-sm font-semibold">05</span>
+                            <h4 class="font-semibold">Digital Growth</h4>
+                            <p class="text-gray-500 text-xs mt-1">Proin eget tortor risus nulla porttitor accumsan
+                                tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 3 B-->
+                <div class="bg-white p-6 rounded-2xl shadow-sm flex-1">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="bg-[#fae9d7] w-14 h-14 rounded-xl flex-shrink-0 flex items-center justify-center text-xl">
+                            📊</div>
+                        <div>
+                            <span class="text-orange-500 text-sm font-semibold">06</span>
+                            <h4 class="font-semibold">SEO Solutions</h4>
+                            <p class="text-gray-500 text-xs mt-1">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                sed do.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 4-->
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm hover:border-b-4 hover:border-[#d66e61] group hover-border-orange-200 w-full min-h-[320px] flex flex-col justify-between transition-transform hover:scale-105 transition duration-700">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div
+                            class="bg-[#fae9d7] group-hover:bg-orange-500 w-16 h-16 rounded-full flex items-center justify-center text-2xl">
+                            🖌️</div>
+                        <div class="text-right">
+                            <p class="text-gray-200 text-4xl font-bold mt-2">03</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Web Application Development</h3>
+                    <p class="text-gray-500 leading-relaxed mt-2 text-sm">Vestibulum ante ipsum primis in faucibus orci
+                        luctus et ultrices posuere cubilia.</p>
+                    <div class="flex flex-wrap gap-3 mt-6">
+                        <span class="bg-gray-100 px-2 py-2 rounded-full text-xs text-gray-600">
+                            <span class="text-orange-500">✓</span> Frontend Build
+                        </span>
+                        <span class="bg-gray-100 px-4 py-2 rounded-full text-xs text-gray-600">
+                            <span class="text-orange-500">✓</span> Backend Systems
+                        </span>
+                    </div>
+                </div>
+                <p class="mt-4 font-semibold cursor-pointer group-hover:text-orange-500 transition text-sm">Discover More >
+                </p>
+            </div>
+
+            <!--Card 5-->
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm hover:border-b-4 hover:border-[#d66e61] group hover-border-orange-200 w-full min-h-[320px] flex flex-col justify-between transition-transform hover:scale-105 transition duration-700">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div
+                            class="bg-[#fae9d7] group-hover:bg-orange-500 w-16 h-16 rounded-full flex items-center justify-center text-2xl">
+                            📲</div>
+                        <div class="text-right">
+                            <p class="text-gray-200 text-4xl font-bold mt-2">04</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold">Mobile App Engineering</h3>
+                    <p class="text-gray-500 leading-relaxed mt-2 text-sm">Donec sollicitudin molestie malesuada vivamus
+                        magna justo lacinia eget consectetur.</p>
+
+                    <div class="flex flex-wrap gap-3 mt-6">
+                        <span class="bg-gray-100 px-4 py-2 rounded-full text-xs text-gray-600">
+                            <span class="text-orange-500">✓</span> iOS & Android
+                        </span>
+                        <span class="bg-gray-100 px-4 py-2 rounded-full text-xs text-gray-600">
+                            <span class="text-orange-500">✓</span> Cross Platform
+                        </span>
+                    </div>
+                </div>
+                <p class="mt-4 font-semibold cursor-pointer group-hover:text-orange-500 transition text-sm">Discover More >
+                </p>
+            </div>
+
+            <!--Card 6-->
+            <div
+                class="bg-gradient-to-br from-[#FF6B00] via-[#FF5C33] to-[#E25E5E] p-8 rounded-2xl shadow-sm flex flex-col justify-between w-full min-h-[320px] text-center">
+                <div class="flex justify-center text-3xl pt-4">🚀</div>
+                <div>
+                    <h3 class="text-xl text-white font-bold">Transform Your Business Vision</h3>
+                    <p class="text-white text-sm opacity-90 mt-2">Partner with our specialists for exceptional results
+                    </p>
+                </div>
+                <button class="bg-white text-orange-600 rounded-full py-3 px-6 font-bold hover:bg-gray-100 transition">
+                    Launch Your Project ➝
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section 4-->
+    <section class="py-20 bg-[#f8f8f8]">
+        <div class="text-center max-w-2xl mx-auto mb-16 px-4">
+            <h2 class="text-3xl font-semibold relative inline-block">
+                Why Us
+                <hr class="block w-40 h-[3px] bg-orange-500 mx-auto mt-2">
+            </h2>
+            <p class="text-gray-500 mt-4 text-md">
+                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+
+            <div class="px-6 md:px-10 lg:pl-[120px] lg:pr-0">
+                <h2 class="text-[32px] md:text-[40px] mb-5 font-bold leading-tight">
+                    Discover What Sets Us <br class="hidden md:block"> Apart
+                </h2>
+                <p class="text-gray-500 max-w-md">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.
+                </p>
+
+                <div class="flex flex-row gap-10 md:gap-20 mt-8">
+                    <div>
+                        <h2 class="text-[36px] md:text-[46px] text-orange-600 font-bold">98%</h2>
+                        <p class="text-gray-500 text-sm md:text-base">Success Rate</p>
+                    </div>
+
+                    <div>
+                        <h2 class="text-[36px] md:text-[46px] text-orange-600 font-bold">150+</h2>
+                        <p class="text-gray-500 text-sm md:text-base">Projects Delivered</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:px-10 lg:pr-[120px] lg:pl-0">
+                <!--Card 1-->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-orange-500 flex items-start w-full lg:w-[305px] lg:-ml-20 h-auto min-h-[175px] hover:shadow-lg transition-all duration-500 hover:translate-x-3">
+                    <div
+                        class="text-xl bg-[#fae9d7] w-14 h-14 rounded-xl flex-shrink-0 flex items-center justify-center mr-4">
+                        💡</div>
+                    <div>
+                        <h4 class="font-semibold text-gray-900">Innovative Solutions</h4>
+                        <p class="text-sm text-gray-500 mt-1">Lorem ipsum dolor sit amet consectetur adipiscing elit sed
+                            do eiusmod.</p>
+                    </div>
+                </div>
+
+                <!--Card 2-->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-orange-500 flex items-start w-full lg:w-[305px] lg:-ml-4 h-auto min-h-[175px] hover:shadow-lg transition-all duration-500 hover:translate-x-3">
+                    <div
+                        class="text-xl bg-[#fae9d7] w-14 h-14 rounded-xl flex-shrink-0 flex items-center justify-center mr-4">
+                        🚀</div>
+                    <div>
+                        <h4 class="font-semibold text-gray-900">Rapid Deployment</h4>
+                        <p class="text-sm text-gray-500 mt-1">Ut enim ad minim veniam quis nostrud exercitation ullamco
+                            laboris nisi.</p>
+                    </div>
+                </div>
+
+                <!--Card 3-->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-orange-500 flex items-start w-full lg:w-[305px] lg:-ml-20 h-auto min-h-[175px] hover:shadow-lg transition-all duration-500 hover:translate-x-3">
+                    <div
+                        class="text-xl bg-[#fae9d7] w-14 h-14 rounded-xl flex-shrink-0 flex items-center justify-center mr-4">
+                        🛡️</div>
+                    <div>
+                        <h4 class="font-semibold text-gray-900">Secure & Reliable</h4>
+                        <p class="text-sm text-gray-500 mt-1">Excepteur sint occaecat cupidatat non proident sunt in
+                            culpa qui officia.</p>
+                    </div>
+                </div>
+
+                <!--Card 4-->
+                <div
+                    class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-orange-500 flex items-start w-full lg:w-[305px] lg:-ml-4 h-auto min-h-[175px] hover:shadow-lg transition-all duration-500 hover:translate-x-3">
+                    <div
+                        class="text-xl bg-[#fae9d7] w-14 h-14 rounded-xl flex-shrink-0 flex items-center justify-center mr-4">
+                        🎧</div>
+                    <div>
+                        <h4 class="font-semibold text-gray-900">24/7 Support</h4>
+                        <p class="text-sm text-gray-500 mt-1">Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                            aut odit aut.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Section 5-->
+    <section class="py-20 bg-[#f8f8f8]">
+        <div
+            class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-10 lg:px-[80px] -mt-[110px]">
+
+            <!--Card 1-->
+            <div
+                class="bg-white p-8 rounded-2xl hover:border-t-4 hover:border-[#d66e61] shadow-sm hover:shadow-lg w-full min-h-[320px] flex flex-col justify-between transition-transform hover:scale-105 transition duration-700">
+                <div>
+                    <div class="flex items-start mb-4">
+                        <div
+                            class="bg-[#fae9d7] hover:bg-orange-400 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">
+                            🖌️</div>
+
+                        <p
+                            class="text-orange-500 text-xs ml-3 bg-[#fae9d7] rounded-full font-semibold uppercase mt-4 px-4 py-1">
+                            design</p>
+
+                    </div>
+                    <h3 class="text-xl opacity-[0.9] font-semibold">Creative Excellence</h3>
+                    <p class="text-gray-500 leading-relaxed mt-2 text-md">Sed ut perspiciatis unde omnis iste natus
+                        error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
+
+                </div>
+                <p class=" font-semibold cursor-pointer text-orange-500 transition">Discover More ></p>
+            </div>
+
+            <!--Card 2-->
+            <div
+                class="bg-gradient-to-br from-[#FF6B00] via-[#FF5C33] to-[#E25E5E] p-8 rounded-2xl shadow-sm flex flex-col justify-between w-full min-h-[320px] transition-transform hover:scale-105 transition duration-700">
+                <div>
+                    <div class="flex items-start mb-4">
+                        <div
+                            class="bg-[#ec8e41] hover:bg-orange-400 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">
+                            📊</div>
+
+                        <p
+                            class="text-white text-xs ml-3 bg-[#ec8e41] rounded-full font-semibold uppercase mt-4 px-4 py-1">
+                            growth</p>
+
+                    </div>
+                    <h3 class="text-xl text-white opacity-[0.9] font-semibold">Measurable Results</h3>
+                    <p class="text-white leading-relaxed mt-2 text-md opacity-[0.7]">Neque porro quisquam est qui
+                        dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia.</p>
+
+                </div>
+                <p class=" font-semibold cursor-pointer text-white transition">Discover More ></p>
+            </div>
+
+            <!--Card 3-->
+            <div
+                class="bg-white p-8 rounded-2xl hover:border-t-4 hover:border-[#d66e61] shadow-sm hover:shadow-lg w-full min-h-[320px] flex flex-col justify-between transition-transform hover:scale-105 transition duration-700">
+                <div>
+                    <div class="flex items-start mb-4">
+                        <div
+                            class="bg-[#fae9d7] hover:bg-orange-400 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl">
+                            👥</div>
+
+                        <p
+                            class="text-orange-500 text-xs ml-3 bg-[#fae9d7] rounded-full font-semibold uppercase mt-4 px-4 py-1">
+                            team</p>
+
+                    </div>
+                    <h3 class="text-xl opacity-[0.9] font-semibold">Skilled Professionals</h3>
+                    <p class="text-gray-500 leading-relaxed mt-2 text-md">At vero eos et accusamus et iusto odio
+                        dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+
+                </div>
+                <p class=" font-semibold cursor-pointer text-orange-500 transition">Discover More ></p>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 6-->
+    <section class="p-6 md:p-12 bg-[#f8f8f8]">
+        <div
+            class="max-w-4xl mx-auto bg-[#FFF5EE] rounded-[40px] p-10 md:p-14 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-10 border border-orange-100/50 shadow-sm transition-all hover:shadow-md -mt-20">
+
+            <div class="text-center md:text-left flex-1">
+                <h2 class="text-[32px] md:text-[38px] lg:text-[42px] font-bold text-[#1A1A1A] leading-[1.1] mb-5">
+                    Ready to <br class="hidden md:block"> Transform Your <br class="hidden md:block"> Vision?
+                </h2>
+                <p class="text-gray-500 text-base md:text-lg max-w-[340px] mx-auto md:mx-0 leading-relaxed">
+                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil.
+                </p>
+            </div>
+
+            <div class="flex flex-col gap-4 w-full md:w-auto shrink-0">
+                <button
+                    class="w-full md:w-auto bg-[#FF6B00] hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-2xl transition-all duration-300 shadow-lg shadow-orange-200/50 hover:-translate-y-1">
+                    Launch Your Project
+                </button>
+
+                <button
+                    class="w-full md:w-auto bg-white/50 backdrop-blur-sm border-2 border-[#FF6B00] text-[#FF6B00] font-bold py-4 px-10 rounded-2xl hover:bg-[#FF6B00] hover:text-white transition-all duration-300 hover:-translate-y-1">
+                    Browse Work
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section 7-->
+    <section class="bg-[#01020e] py-20 px-4">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-white text-3xl font-semibold relative inline-block">
+                Testimonials
+                <hr class="block w-40 h-[3px] bg-orange-500 mx-auto mt-2">
+            </h2>
+            <p class="text-gray-400 mt-4 text-sm md:text-base">
+                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+
+            <div class="bg-[#1a1a1a] p-8 md:p-10 rounded-sm relative border-l-4 border-orange-500">
+                <p class="text-gray-300 italic text-lg leading-relaxed mb-6">
+                    "Lorem ipsum dolor sit amet elit sed tempor incididunt labore dolore magna aliqua enim minim veniam
+                    nostrud exercitation commodo."
+                </p>
+
+                <div class="flex gap-1 text-orange-500 mb-8">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+
+                <hr class="border-gray-800 mb-8">
+
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="relative">
+                            <img src="images/white.webp" class="w-16 h-16 rounded-full border-2 border-orange-500 p-1"
+                                alt="Daniel">
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold text-lg">Sophia Anderson</h4>
+                            <p class="text-orange-500 text-sm">Creative Director</p>
+                            <div class="flex items-center gap-1 text-gray-500 text-xs mt-1">
+                                <span>💼</span> DesignHub
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-green-500 w-6 h-6 rounded-full flex items-center justify-center text-[10px] text-white">
+                        ✓</div>
+                </div>
+            </div>
+
+            <div class="bg-[#1a1a1a] p-8 md:p-10 rounded-sm relative border-l-4 border-orange-500">
+                <p class="text-gray-300 italic text-lg leading-relaxed mb-6">
+                    "Ullamco laboris nisi aliquip commodo consequat duis aute irure dolor reprehenderit voluptate velit
+                    esse cillum dolore fugiat nulla."
+                </p>
+
+                <div class="flex gap-1 text-orange-500 mb-8">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+
+                <hr class="border-gray-800 mb-8">
+
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="relative">
+                            <img src="images/asian.webp" class="w-16 h-16 rounded-full border-2 border-orange-500 p-1"
+                                alt="Victoria">
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold text-lg">Danial Okonkwo</h4>
+                            <p class="text-orange-500 text-sm">Data Analyst</p>
+                            <div class="flex items-center gap-1 text-gray-500 text-xs mt-1">
+                                <span>💼</span> InsightFlow
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-green-500 w-6 h-6 rounded-full flex items-center justify-center text-[10px] text-white">
+                        ✓</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section 8-->
+    <section class="py-20 overflow-hidden bg-[#f8f8f8]">
+        <div class="text-center max-w-2xl mx-auto mb-16 px-4">
+            <h2 class="text-3xl font-semibold relative inline-block">
+                Team
+                <hr class="block w-40 h-[3px] bg-orange-500 mx-auto mt-2">
+            </h2>
+            <p class="text-gray-500 mt-4 text-md">
+                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+            </p>
+        </div>
+
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-6 md:px-10 ">
+            <!--Card 1-->
+            <div
+                class="bg-white group p-8 rounded-2xl shadow-sm border hover:border-orange-100 w-full min-h-[400px] flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:-translate-y-2">
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="relative">
+                            <img src="images/one.webp" alt="Sophia"
+                                class="w-[120px] h-[120px] rounded-full border-2 border-orange-300 group-hover:border-orange-500 p-1 object-cover">
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-800">Sophia Anderson</h3>
+                    <div class="flex justify-center mt-2">
+                        <h4
+                            class="text-orange-600 uppercase bg-orange-50 px-4 py-1 rounded-full text-xs font-bold tracking-wider">
+                            Chief Executive Officer</h4>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed text-sm text-center mt-4 italic">"Lorem ipsum dolor sit amet
+                        consectetur adipiscing elit sed do eiusmod tempor."</p>
+                </div>
+
+                <div class="flex justify-center gap-4 mt-6">
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">🇮🇳</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors text-xs">𝕏</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">✉️</a>
+                </div>
+            </div>
+
+            <!--Card 2-->
+
+            <div
+                class="bg-white group p-8 rounded-2xl shadow-sm border hover:border-orange-100 w-full min-h-[400px] flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:-translate-y-2">
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <img src="images/two.webp" alt="Marcus"
+                                class="w-[120px] h-[120px] rounded-full border-2 border-orange-300 group-hover:border-orange-500 p-1 object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-800">Marcus Chen</h3>
+                    <div class="flex justify-center mt-2">
+                        <h4
+                            class="text-orange-600 uppercase bg-orange-50 px-4 py-1 rounded-full text-xs font-bold tracking-wider">
+                            Technical Director</h4>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed text-sm text-center mt-4 italic">"Ut enim ad minima veniam
+                        quis nostrum exercitationem ullam corporis."</p>
+                </div>
+                <div class="flex justify-center gap-4 mt-6">
+                    <button
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">🇮🇳</button>
+                    <button
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors text-xs">𝕏</button>
+                    <button
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">✉️</button>
+                </div>
+            </div>
+
+            <!--Card 3-->
+            <div
+                class="bg-white group p-8 rounded-2xl shadow-sm border hover:border-orange-100 w-full min-h-[400px] flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:-translate-y-2">
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="relative">
+                            <img src="images/three.webp" alt="Sophia"
+                                class="w-[120px] h-[120px] rounded-full border-2 border-orange-300 group-hover:border-orange-500 p-1 object-cover">
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-800">Emma Richardson</h3>
+                    <div class="flex justify-center mt-2">
+                        <h4
+                            class="text-orange-600 uppercase bg-orange-50 px-4 py-1 rounded-full text-xs font-bold tracking-wider">
+                            Creative Lead</h4>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed text-sm text-center mt-4 italic">Duis aute irure dolor
+                        reprehenderit voluptate velit esse cillum dolore fugiat.</p>
+                </div>
+
+                <div class="flex justify-center gap-4 mt-6">
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">🇮🇳</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors text-xs">𝕏</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">✉️</a>
+                </div>
+            </div>
+
+            <!--Card 4-->
+            <div
+                class="bg-white group p-8 rounded-2xl shadow-sm border hover:border-orange-100 w-full min-h-[400px] flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:-translate-y-2">
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="relative">
+                            <img src="images/four.webp" alt="Sophia"
+                                class="w-[120px] h-[120px] rounded-full border-2 border-orange-300 group-hover:border-orange-500 p-1 object-cover">
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-800">Brandon Walsh</h3>
+                    <div class="flex justify-center mt-2">
+                        <h4
+                            class="text-orange-600 uppercase bg-orange-50 px-4 py-1 rounded-full text-xs font-bold tracking-wider">
+                            Chief Executive Officer</h4>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed text-sm text-center mt-4 italic">Excepteur sint occaecat
+                        cupidatat non proident sunt culpa qui officia deserunt.</p>
+                </div>
+
+                <div class="flex justify-center gap-4 mt-6">
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">🇮🇳</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors text-xs">𝕏</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">✉️</a>
+                </div>
+            </div>
+
+            <!--Card 5-->
+            <div
+                class="bg-white group p-8 rounded-2xl shadow-sm border hover:border-orange-100 w-full min-h-[400px] flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:-translate-y-2">
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="relative">
+                            <img src="images/five.webp" alt="Sophia"
+                                class="w-[120px] h-[120px] rounded-full border-2 border-orange-300 group-hover:border-orange-500 p-1 object-cover">
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-800">Olivia Martinez</h3>
+                    <div class="flex justify-center mt-2">
+                        <h4
+                            class="text-orange-600 uppercase bg-orange-50 px-4 py-1 rounded-full text-xs font-bold tracking-wider">
+                            Product Strategist</h4>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed text-sm text-center mt-4 italic">Sed ut perspiciatis unde
+                        omnis iste natus error sit voluptatem accusantium.</p>
+                </div>
+
+                <div class="flex justify-center gap-4 mt-6">
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">🇮🇳</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors text-xs">𝕏</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">✉️</a>
+                </div>
+            </div>
+
+            <!--Card 6-->
+            <div
+                class="bg-white group p-8 rounded-2xl shadow-sm border hover:border-orange-100 w-full min-h-[400px] flex flex-col justify-between transition-all duration-300 hover:shadow-md hover:-translate-y-2">
+                <div>
+                    <div class="flex justify-center mb-6">
+                        <div class="relative">
+                            <img src="images/six.webp" alt="Sophia"
+                                class="w-[120px] h-[120px] rounded-full border-2 border-orange-300 group-hover:border-orange-500 p-1 object-cover">
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-center text-gray-800">Ryan Thompson</h3>
+                    <div class="flex justify-center mt-2">
+                        <h4
+                            class="text-orange-600 uppercase bg-orange-50 px-4 py-1 rounded-full text-xs font-bold tracking-wider">
+                            Lead Developer</h4>
+                    </div>
+                    <p class="text-gray-500 leading-relaxed text-sm text-center mt-4 italic">Nemo enim ipsam voluptatem
+                        quia voluptas sit aspernatur aut odit fugit.</p>
+                </div>
+
+                <div class="flex justify-center gap-4 mt-6">
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">🇮🇳</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors text-xs">𝕏</a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-orange-500 hover:text-white transition-colors">✉️</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section 9-->
+    <section class="py-12 bg-[#f8f8f8]">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 -mt-20 ">
+            <div
+                class="bg-white p-6 group rounded-2xl shadow-sm border border-gray-100 flex items-center gap-4 transition-transform hover:-translate-y-1">
+                <div
+                    class="w-14 h-14 bg-orange-50 group-hover:bg-orange-500 rounded-xl flex items-center justify-center text-orange-600 text-2xl">
+                    👥</div>
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900">85+</h3>
+                    <p class="text-gray-500 text-sm">Expert Team Members</p>
+                </div>
+            </div>
+            <div
+                class="bg-white p-6 rounded-2xl group shadow-sm border border-gray-100 flex items-center gap-4 transition-transform hover:-translate-y-1">
+                <div
+                    class="w-14 h-14 bg-orange-50 group-hover:bg-orange-500 rounded-xl flex items-center justify-center text-orange-600 text-2xl">
+                    📍</div>
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900">18</h3>
+                    <p class="text-gray-500 text-sm">Worldwide Offices</p>
+                </div>
+            </div>
+            <div
+                class="bg-white p-6 rounded-2xl group shadow-sm border border-gray-100 flex items-center gap-4 transition-transform hover:-translate-y-1">
+                <div
+                    class="w-14 h-14 bg-orange-50 group-hover:bg-orange-500 rounded-xl flex items-center justify-center text-orange-600 text-2xl">
+                    🎖️</div>
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900">40+</h3>
+                    <p class="text-gray-500 text-sm">Awards Received</p>
+                </div>
+            </div>
+            <div
+                class="bg-white p-6 rounded-2xl group shadow-sm border border-gray-100 flex items-center gap-4 transition-transform hover:-translate-y-1">
+                <div
+                    class="w-14 h-14 bg-orange-50 group-hover:bg-orange-500 rounded-xl flex items-center justify-center text-orange-600 text-2xl">
+                    😊</div>
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900">96%</h3>
+                    <p class="text-gray-500 text-sm">Employee Happiness</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 10-->
+    <section class="py-12 px-4 md:px-8 lg:px-10 bg-[#f8f8f8]">
+        <div
+            class="max-w-5xl mx-auto bg-gradient-to-r from-[#ff6b00] to-[#ff8c33] rounded-[32px] p-8 md:p-12 lg:p-14 flex flex-col lg:flex-row items-center justify-between gap-10 overflow-hidden shadow-xl shadow-orange-200/40">
+
+            <div class="text-center lg:text-left flex-1">
+                <div
+                    class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-4 py-2 rounded-full mb-6 border border-white/20">
+                    <span class="text-white text-xs">✦ ݁˖</span>
+                    <span class="text-white text-[10px] md:text-xs font-bold uppercase tracking-[0.2em]">Join Our
+                        Team</span>
+                </div>
+
+                <h2 class="text-3xl md:text-5xl lg:text-5xl font-bold text-white leading-[1.1] mb-5 tracking-tight">
+                    Shape the Future <br class="hidden md:block"> With Us
+                </h2>
+
+                <p class="text-white/90 text-base md:text-lg max-w-lg mx-auto lg:mx-0 leading-relaxed font-medium">
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit sed quia
+                    non numquam eius modi tempora.
+                </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row lg:flex-col gap-4 w-full sm:w-auto lg:min-w-[240px] shrink-0">
+                <a href="#"
+                    class="group bg-white text-[#ff6b00] font-bold py-4 px-6 rounded-full flex items-center justify-center gap-3 transition-all duration-300 hover:scale-[1.03] active:scale-95 shadow-md shadow-black/10">
+                    View Open Positions
+                    <span class="text-lg transition-transform group-hover:translate-x-1">→</span>
+                </a>
+
+                <a href="#"
+                    class="bg-white/10 backdrop-blur-sm border border-white/30 text-white font-bold py-4 px-6 rounded-full flex items-center justify-center gap-3 transition-all duration-300 hover:bg-white/20">
+                    <span class="text-lg">📹</span>
+                    See Life at Company
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section 11-->
+    <section class="py-16 px-4 bg-[#f8f8f8]">
+        <div class="max-w-6xl mx-auto">
+
+            <div class="text-center max-w-2xl mx-auto mb-16 px-4">
+                <h2 class="text-3xl font-semibold relative inline-block">
+                    Pricing
+                    <hr class="block w-40 h-[3px] bg-orange-500 mx-auto mt-2">
+                </h2>
+                <p class="text-gray-500 mt-4 text-md">
+                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+
+                <!--Card 1-->
+                <div
+                    class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col transition-transform hover:scale-105">
+
+                    <div>
+                        <div class="bg-[#fdf6f0] text-center py-8">
+                            <div
+                                class="w-12 h-12 mx-auto bg-[#f9e2cd] rounded-xl text-[30px] flex items-center justify-center mb-4 text-orange-500 ">
+                                ☆
+                            </div>
+                            <h3 class="text-xl font-semibold">Essential</h3>
+                            <p class="text-sm text-gray-500">Perfect for individuals</p>
+                        </div>
+
+                        <div class="p-8 text-center border-b">
+                            <h2 class="text-4xl font-bold">$24<span
+                                    class="text-base font-medium text-gray-500">/mo</span></h2>
+                            <p class="text-sm text-gray-400 mt-2">Charged each month</p>
+                        </div>
+
+                        <div class="p-8 space-y-4 text-sm">
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                3 active projects
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                5 GB secure storage
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Email assistance
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Standard reports
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 mt-auto">
+                        <button
+                            class="w-full bg-[#e9dfd7] text-orange-600 font-semibold py-3 rounded-xl hover:bg-[#e3d5ca] transition">
+                            Choose Essential
+                        </button>
+                    </div>
+
+                </div>
+
+
+                <!-- card 2 -->
+                <div
+                    class="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col border border-orange-500 transition-transform hover:scale-105">
+
+                    <div>
+                        <div class="bg-orange-500 text-center py-8 text-white">
+                            <div
+                                class="w-12 h-12 mx-auto bg-orange-400 rounded-xl flex items-center justify-center mb-4">
+                                💎
+                            </div>
+                            <h3 class="text-xl font-semibold">Growth</h3>
+                            <p class="text-sm text-orange-100">Ideal for growing teams</p>
+                        </div>
+
+                        <div class="p-8 text-center border-b">
+                            <h2 class="text-4xl font-bold">$59<span
+                                    class="text-base font-medium text-gray-500">/mo</span></h2>
+                            <p class="text-sm text-gray-400 mt-2">Charged each month</p>
+                        </div>
+
+                        <div class="p-8 space-y-4 text-sm">
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Unlimited projects
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                50 GB secure storage
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Live chat support
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Advanced analytics
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                API access
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Team workspaces
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 mt-auto">
+                        <button
+                            class="w-full bg-orange-500 text-white font-semibold py-3 rounded-xl hover:bg-orange-600 transition">
+                            Begin Free Trial
+                        </button>
+                        <p class="text-xs text-center text-gray-400 mt-3">
+                            7 days free, no card required
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col transition-transform hover:scale-105">
+
+                    <div>
+                        <div class="bg-[#fdf6f0] text-center py-8">
+                            <div
+                                class="w-12 h-12 mx-auto bg-[#f9e2cd] rounded-xl flex items-center justify-center mb-4 text-orange-500">
+                                👜
+                            </div>
+                            <h3 class="text-xl font-semibold">Business</h3>
+                            <p class="text-sm text-gray-500">For large organizations</p>
+                        </div>
+
+                        <div class="p-8 text-center border-b">
+                            <h2 class="text-3xl font-bold">Let's Talk</h2>
+                            <p class="text-sm text-gray-400 mt-2">Customized for your needs</p>
+                        </div>
+
+                        <div class="p-8 space-y-4 text-sm">
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                All Growth features
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Unlimited storage
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Dedicated support rep
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Custom integrations
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="w-5 h-5 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">✓</span>
+                                Enterprise SLA
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-6 mt-auto">
+                        <button
+                            class="w-full bg-[#e9dfd7] text-orange-600 font-semibold py-3 rounded-xl hover:bg-[#e3d5ca] transition">
+                            Request Demo
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Section 12-->
+    <section class="py-16 px-4 bg-[#f8f8f8]">
+        <div class="max-w-6xl mx-auto -mt-20 ">
+
+            <div class="bg-white rounded-3xl p-6 md:p-10 shadow-sm">
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <!-- Item 1 -->
+                    <div class="bg-[#fef8f2] hover:bg-pink-50 rounded-2xl p-6 flex items-start gap-4">
+                        <div class="text-orange-500 text-2xl">
+                            🔒
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">256-bit Encryption</h4>
+                            <p class="text-sm text-gray-500">Bank-level security</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="bg-[#fef8f2] hover:bg-pink-50 rounded-2xl p-6 flex items-start gap-4">
+                        <div class="text-orange-500 text-2xl">
+                            📈
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">99.99% Uptime</h4>
+                            <p class="text-sm text-gray-500">Reliable service</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="bg-[#fef8f2] hover:bg-pink-50 rounded-2xl p-6 flex items-start gap-4">
+                        <div class="text-orange-500 text-2xl">
+                            🕒
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Hourly Backups</h4>
+                            <p class="text-sm text-gray-500">Data protection</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="bg-[#fef8f2] hover:bg-pink-50 rounded-2xl p-6 flex items-start gap-4">
+                        <div class="text-orange-500 text-2xl">
+                            🌐
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">SOC 2 Certified</h4>
+                            <p class="text-sm text-gray-500">Industry compliant</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div
+                class="flex flex-col sm:flex-row items-center justify-center gap-6 mt-10 text-orange-500 font-medium text-sm">
+
+                <a href="#" class="flex items-center gap-2 transition-transform hover:scale-105">
+                    ☰ View Comparison
+                </a>
+
+                <a href="#" class="flex items-center gap-2 transition-transform hover:scale-105">
+                    ❓ Questions & Answers
+                </a>
+
+                <a href="#" class="flex items-center gap-2 transition-transform hover:scale-105">
+                    🎧 Contact Support
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section 13-->
+    <section class="py-20 bg-[#f8f8f8]">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-semibold relative inline-block">
+                    Frequently Asked Questions
+                    <span class="block w-40 h-[3px] bg-orange-500 mx-auto mt-2"></span>
+                </h2>
+                <p class="text-gray-500 mt-4">
+                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+                <div class="space-y-4">
+
+                    <!--Left Card 1-->
+                    <div class="bg-orange-500 text-white rounded-2xl p-6 flex items-center gap-4 shadow-md">
+                        <div class="w-12 h-12 bg-orange-400 rounded-xl flex items-center justify-center text-2xl">
+                            ⓘ
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">General</h4>
+                            <p class="text-sm">5 Questions</p>
+                        </div>
+                    </div>
+
+                    <!--Left Card 2-->
+                    <div class="bg-white rounded-2xl p-6 flex items-center gap-4 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-xl">
+                            📩
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Billing</h4>
+                            <p class="text-sm text-gray-500">4 Questions</p>
+                        </div>
+                    </div>
+
+                    <!--Left Card 3-->
+                    <div class="bg-white rounded-2xl p-6 flex items-center gap-4 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-xl">
+                            ⚙️
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Technical</h4>
+                            <p class="text-sm text-gray-500">6 Questions</p>
+                        </div>
+                    </div>
+
+                    <!--Left Card 4-->
+                    <div class="bg-orange-50 rounded-2xl p-8 text-center shadow-sm">
+                        <div
+                            class="w-14 h-14 mx-auto bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl mb-4">
+                            🎧
+                        </div>
+                        <h3 class="text-lg font-semibold">Still need help?</h3>
+                        <p class="text-sm text-gray-500 mt-2">
+                            Donec sollicitudin molestie malesuada pellentesque.
+                        </p>
+                        <button class="mt-6 text-orange-500 font-semibold hover:underline">
+                            Get in touch →
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="lg:col-span-2 space-y-5 ">
+
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+
+                        <span class="bg-orange-100 text-orange-600 px-4 py-2 rounded-full text-sm font-semibold">
+                            15+ Questions Answered
+                        </span>
+
+                        <!--Right Search-->
+                        <div class="relative w-full sm:w-80">
+                            <input type="text" placeholder="Search..."
+                                class="w-full py-3 pl-12 pr-4 rounded-full border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:outline-none">
+                            <div class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
+                                🔍︎
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--Right Card 1-->
+                    <div class="bg-white rounded-2xl p-6 flex gap-4 shadow-sm hover:shadow-md transition">
+                        <div
+                            class="w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-xl shrink-0">
+                            ⓘ
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-3">
+                                Nulla quis lorem ut libero malesuada feugiat proin?
+                            </h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">
+                                Curabitur arcu erat accumsan id imperdiet et porttitor at sem.
+                                Donec rutrum congue leo eget.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Right Card 2-->
+                    <div class="bg-white rounded-2xl p-6 flex gap-4 shadow-sm hover:shadow-md transition">
+                        <div
+                            class="w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-xl shrink-0">
+                            ⓘ
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-3">
+                                Vivamus suscipit tortor eget felis porttitor volutpat?
+                            </h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">
+                                Nulla porttitor accumsan tincidunt mauris blandit aliquet elit.
+                                Vivamus suscipit tortor eget felis porttitor volutpat.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Right Card 3-->
+                    <div class="bg-white rounded-2xl p-6 flex gap-4 shadow-sm hover:shadow-md transition">
+                        <div
+                            class="w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-xl shrink-0">
+                            ⓘ
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-3">
+                                Cras ultricies ligula sed magna dictum porta?
+                            </h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                blanditiis praesentium voluptatum deleniti.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--Right Card 4-->
+                    <div class="bg-white rounded-2xl p-6 flex gap-4 shadow-sm hover:shadow-md transition">
+                        <div
+                            class="w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-xl shrink-0">
+                            ⓘ
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-3">
+                                Mauris blandit aliquet elit eget tincidunt nibh?
+                            </h4>
+                            <p class="text-gray-500 text-sm leading-relaxed">
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                blanditiis praesentium voluptatum deleniti.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Section 14-->
+    <section class="py-20 bg-[#f8f8f8]">
+        <div class="max-w-6xl mx-auto px-4">
+
+            <div class="text-center max-w-2xl mx-auto mb-12 -mt-14">
+                <h2 class="text-3xl font-semibold relative inline-block">
+                    Contact
+                    <span class="block w-40 h-[3px] bg-orange-500 mx-auto mt-2"></span>
+                </h2>
+                <p class="text-gray-500 mt-4">
+                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+                <div class="lg:col-span-2 bg-white rounded-3xl p-8 shadow-sm">
+
+                    <div class="grid sm:grid-cols-3 gap-6 mb-8">
+
+                        <!-- Card 1 -->
+                        <div class="bg-[#fef8f3] border rounded-2xl p-6 text-center hover:shadow-md transition">
+                            <div
+                                class="w-12 h-12 mx-auto text-orange-500 bg-orange-100 text-orange-500 rounded-full flex items-center justify-center mb-4">
+                                ✉
+                            </div>
+                            <h4 class="font-semibold text-sm">Drop Us a Line</h4>
+                            <p class="text-gray-500 text-xs mt-1">support@example.com</p>
+                            <p class="text-gray-400 text-xs mt-2">Quick replies within 3 hours</p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="bg-[#fef8f3] border rounded-2xl p-6 text-center hover:shadow-md transition">
+                            <div
+                                class="w-12 h-12 mx-auto bg-orange-100 text-orange-500 rounded-full flex items-center justify-center mb-4">
+                                📱
+                            </div>
+                            <h4 class="font-semibold text-sm">Give Us a Ring</h4>
+                            <p class="text-gray-500 text-xs mt-1">+1 (555) 234-8901</p>
+                            <p class="text-gray-400 text-xs mt-2">Mon–Fri 8AM – 7PM CST</p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="bg-[#fef8f3] border rounded-2xl p-6 text-center hover:shadow-md transition">
+                            <div
+                                class="w-12 h-12 mx-auto bg-orange-100 text-orange-500 rounded-full flex items-center justify-center mb-4">
+                                🕹️
+                            </div>
+                            <h4 class="font-semibold text-sm">Stop By</h4>
+                            <p class="text-gray-500 text-xs mt-1">
+                                15230 Oak Avenue, Chicago, IL 60614
+                            </p>
+                            <p class="text-gray-400 text-xs mt-2">Walk-ins welcome</p>
+                        </div>
+
+                    </div>
+
+                    <hr class="mb-8">
+
+                    <h3 class="text-[30px] font-semibold mb-3">Share Your Vision With Us</h3>
+                    <p class="text-gray-500 text-md mb-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis.
+                    </p>
+
+                    <form class="space-y-4">
+
+                        <div class="grid sm:grid-cols-3 gap-4">
+                            <input type="text" placeholder="ጸ   Full Name"
+                                class="w-full border rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-orange-500 focus:outline-none">
+
+                            <input type="email" placeholder="✉  Email Address"
+                                class="w-full border rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-orange-500 focus:outline-none">
+
+                            <input type="text" placeholder="🔖  Subject"
+                                class="w-full border rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-orange-500 focus:outline-none">
+                        </div>
+
+                        <textarea rows="5" placeholder="💬   Describe your project or inquiry in detail..."
+                            class="w-full border rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-orange-500 focus:outline-none"></textarea>
+
+                        <div class="text-right">
+                            <button type="submit"
+                                class="bg-orange-500 text-white px-9 py-5 rounded-full text-sm font-semibold hover:bg-orange-600 transition">
+                                🚀 Launch Message
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div
+                    class="bg-gradient-to-b  from-orange-500 to-[#ca605f] text-white rounded-3xl p-8 flex flex-col justify-between shadow-lg">
+
+                    <div>
+
+                        <div
+                            class="w-12 h-12 bg-white/20 rounded-full flex items-center ml-[100px] text-xl justify-center mb-6">
+                            ⚡︎
+                        </div>
+
+                        <h3 class="text-lg font-semibold mb-6">Why Partner With Us?</h3>
+
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+
+                            <div class="bg-white/10 rounded-xl p-4 text-center">
+                                <h4 class="text-xl font-bold">12h</h4>
+                                <p class="text-xs mt-1">Response Time</p>
+                            </div>
+
+                            <div class="bg-white/10 rounded-xl p-4 text-center">
+                                <h4 class="text-xl font-bold">97%</h4>
+                                <p class="text-xs mt-1">Happy Clients</p>
+                            </div>
+
+                            <div class="bg-white/10 rounded-xl p-4 text-center">
+                                <h4 class="text-xl font-bold">280+</h4>
+                                <p class="text-xs mt-1">Completed Works</p>
+                            </div>
+
+                            <div class="bg-white/10 rounded-xl p-4 text-center">
+                                <h4 class="text-xl font-bold">15+</h4>
+                                <p class="text-xs mt-1">Years Experience</p>
+                            </div>
+
+                        </div>
+
+                        <div class="bg-white/10 rounded-xl p-4 text-sm mb-6">
+                            <p>
+                                Curabitur aliquet quam id dui posuere blandit.
+                                Vivamus magna justo, lacinia eget consectetur sed.
+                            </p>
+
+                            <div class="flex items-center gap-3 mt-4">
+                                <div class="w-14 h-14"> <img src="images/last.webp" alt="" class="rounded-full"></div>
+                                <div>
+                                    <p class="text-sm font-semibold">Amanda Richardson</p>
+                                    <p class="text-xs opacity-80">Creative Director</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="ml-12 mb-14">
+                        <p class="text-sm mb-3">Follow Our Journey</p>
+                        <div class="flex gap-3">
+                            <div class="w-8 h-8 bg-white/20 rounded flex items-center justify-center">🇮🇳</div>
+                            <div class="w-8 h-8 bg-white/20 rounded flex items-center justify-center">ig</div>
+                            <div class="w-8 h-8 bg-white/20 rounded flex items-center justify-center">🏐</div>
+                            <div class="w-8 h-8 bg-white/20 rounded flex items-center justify-center">be</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Section 15-->
+    <section class="bg-[#01020e] pt-20 pb-12">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-white">
+
+                <div>
+                    <h1 class="text-3xl font-semibold">Creativo</h1>
+
+                    <p class="text-sm text-[#b1afaa] mt-5 leading-relaxed">
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                        Donec velit neque auctor sit amet aliquam vel ullamcorper sit amet ligula.
+                    </p>
+
+                    <h3 class="mt-6 font-semibold">Stay Updated</h3>
+
+                    <div class="flex mt-4 max-w-sm">
+                        <input type="email" placeholder=" Email Address"
+                            class="w-full rounded-full bg-[#252525]  px-9 py-2 text-sm shadow-2xl mt-4 ">
+
+                        <button class="bg-orange-500 text-lg -ml-9  mt-4 p-4 rounded-r-full">➣</button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-8">
+
+                    <div>
+                        <h1 class="text-lg">Company</h1>
+                        <span class="block w-16 h-1 bg-orange-500 mt-2"></span>
+                        <p class="mt-2 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> About</p>
+                        <p class="mt-1 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> Career</p>
+                        <p class="mt-1 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> Press</p>
+                        <p class="mt-1 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> Blog</p>
+                        <p class="mt-1 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> Contact</p>
+                    </div>
+
+                    <div>
+
+                        <h1 class="text-lg">Solution</h1>
+                        <span class="block w-16 h-1 bg-orange-500 mt-2"></span>
+                        <p class="mt-2 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> Digital
+                            Strategy</p>
+                        <p class="mt-1 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> Cloud
+                            Computing</p>
+                        <p class="mt-1 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> Data
+                            Analytics</p>
+                        <p class="mt-1 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span> Ai Solution
+                        </p>
+                        <p class="mt-1 text-sm text-[#b1afaa] hover:text-orange-500 cursor-pointer"><span
+                                class="text-orange-500 text-2xl font-extralight">› </span>
+                            Cybersecurity</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <h1 class="text-lg font-semibold">Get in Touch</h1>
+                    <span class="block w-12 h-1 bg-orange-500 mt-2"></span>
+
+                    <div class="space-y-5 mt-6 text-sm text-[#b1afaa]">
+
+                        <div class="flex gap-4">
+                            <div class="w-8 h-8 bg-[#1a0e0e] rounded-full flex items-center justify-center">
+                                📍
+                            </div>
+                            <p>
+                                2847 Maple Avenue <br>
+                                Los Angeles, CA 90210 <br>
+                                United States
+                            </p>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-8 h-8 bg-[#1a0e0e] rounded-full flex items-center justify-center">
+                                📞
+                            </div>
+                            <p>+1 (555) 987-6543</p>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="w-8 h-8 bg-[#1a0e0e] rounded-full flex items-center justify-center">
+                                ✉️
+                            </div>
+                            <p>contact@example.com</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-wrap gap-4 mt-8">
+                        <div
+                            class="w-10 h-10 bg-[#151621] rounded-full flex items-center justify-center hover:bg-orange-500 transition">
+                            ⓕ</div>
+                        <div
+                            class="w-10 h-10 bg-[#151621] rounded-full flex items-center justify-center hover:bg-orange-500 transition">
+                            𝕏</div>
+                        <div
+                            class="w-10 h-10 bg-[#151621] rounded-full flex items-center justify-center hover:bg-orange-500 transition">
+                            🇮🇳</div>
+                        <div
+                            class="w-10 h-10 bg-[#151621] rounded-full flex items-center justify-center hover:bg-orange-500 transition">
+                            ▶️</div>
+                        <div
+                            class="w-10 h-10 bg-[#151621] rounded-full flex items-center justify-center hover:bg-orange-500 transition">
+                            👾</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-[#0e0f1a] py-12">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+
+                <div class="text-white text-sm text-center md:text-left">
+                    <p>
+                        © Copyright
+                        <span class="font-semibold">Creativo</span>
+                        All Rights Reserved
+                    </p>
+                </div>
+
+                <div class="text-center md:text-right space-y-3">
+
+                    <div class="flex flex-wrap justify-center md:justify-end gap-4 text-xs text-[#aaa898]">
+                        <p class="hover:text-orange-500 cursor-pointer ">
+                            Privacy Policy
+                        </p>
+                        <p class="hover:text-orange-500 cursor-pointer ">
+                            Terms of Service
+                        </p>
+                        <p class="hover:text-orange-500 cursor-pointer ">
+                            Cookie Policy
+                        </p>
+                    </div>
+
+                    <p class="text-[#aaa898] text-xs">
+                        Designed by
+                        <span class="text-orange-500 hover:underline cursor-pointer">
+                            BootstrapMade
+                        </span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
